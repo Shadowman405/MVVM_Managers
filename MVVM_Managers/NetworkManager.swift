@@ -9,5 +9,7 @@ import Foundation
 
 class NetworkManager: NSObject {
     
-    
+    func fetchMovies(completion: ([String]) -> ()) {
+        completion(["Top Gun", "Snatch", "Hellraiser","Silence of Lambs"])
+    }
 }
